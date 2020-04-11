@@ -1,0 +1,23 @@
+.search_input {
+  height: 90rpx;
+  padding: 10rpx;
+  background-color: #eee;
+  display: flex;
+}
+.search_input navigator {
+  height: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15rpx;
+  color: #666;
+  flex: 1;
+}
+#img {
+  float: right;
+  height: 75rpx;
+  width: 90rpx;
+  margin-left: 15rpx;
+}

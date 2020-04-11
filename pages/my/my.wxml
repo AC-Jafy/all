@@ -1,0 +1,9 @@
+<view id="top">
+<button id="login" type="primary" wx:if="{{!userInfo}}" >登录</button>
+<image src="{{userInfo.avatarUrl}}" id="userimg"></image>
+<open-data type="userNickName" id="name"></open-data>
+<image src="../../resources/images/jiantou.png" id="jiantou"></image>
+</view>
+<view>
+  
+</view>

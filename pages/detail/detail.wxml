@@ -1,0 +1,18 @@
+<swiper id='img' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular='circular' >
+<swiper-item wx:for="{{swiper}}" display-multiple-items="">
+<image src="{{item}}"></image>
+</swiper-item>
+</swiper>
+
+<view id="product">
+<text id="name">name</text>
+<text id="price">￥123</text>
+<view id="promise">
+<image src="../../resources/images/gouxuan.png" id="icon"></image>
+<text>保证正品</text>
+</view>
+</view>
+
+<view id="setMeal">
+<text id="chose"></text>
+</view>

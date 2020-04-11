@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+<SearchInput></SearchInput>
+<view id="listALL">
+<view class="kinds {{currentItem==item.id?'list':''}}" wx:for="{{listAll}}" data-id="{{item.id}}" bindtap="tagChoose">
+{{item.name}}
+</view>
+</view>
